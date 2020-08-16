@@ -1,0 +1,36 @@
+{
+  "name": "sr_base64",
+  "version": "1.0.0",
+  "description": "base64 typescript functions",
+  "main": "lib/base64.js",
+  "types": "lib/base64.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node ./lib/tester.js"
+  },
+  "files": [
+    "/lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lae0901/sr_base64.git"
+  },
+  "keywords": [],
+  "author": "Stephen Richter",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.9.1",
+    "@types/node": "^13.13.15",
+    "jest": "^26.4.0",
+    "prettier": "^2.0.5",
+    "sr_test_framework": "^1.0.3",
+    "ts-jest": "^24.3.0",
+    "tslint": "^5.20.1",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.9.7"
+  },
+  "bugs": {
+    "url": "https://github.com/lae0901/sr_base64/issues"
+  },
+  "homepage": "https://github.com/lae0901/sr_base64#readme"
+}
